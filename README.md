@@ -164,6 +164,4 @@ Make sure Chrome Extension has permission to hit `localhost:8080`.
 
 ---
 
-## 🛡️ License
 
-This project is open-source and free to use under MIT License.
