@@ -1,0 +1,26 @@
+{
+  "name": "Research assistant",
+  "description": "This is an AI powered research assistant.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab", "storage", "sidePanel", "scripting"
+  ],
+  "action": {
+    "default_title": "Research Assistant",
+    "default_icon": "image.png"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "https://localhost:8080/*",
+    "<all_urls>"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8" />
+
+<head>
+    <title>Research Assistant</title>
+    <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Research Assistant</h2>
+        </div>
+
+        <div class="actions">
+            <label for="operationDropdown">Choose Operation:</label>
+            <select id="operationDropdown">
+                <option value="summarize">Summarize</option>
+                <option value="suggest">Suggest</option>
+                <option value="explain">Explain</option>
+                <option value="define">Define</option>
+                <option value="highlight">Highlight</option>
+                <option value="rephrase">Rephrase</option>
+                <option value="extract">Extract</option>
+                <option value="related">Related</option>
+                <option value="analyze">Analyze</option>
+                <option value="citation">Citation</option>
+            </select>
+            
+            <button class="Submit" style="color: black; background-color: rgb(89, 227, 9);border-radius: 5px;">Submit</button>
+        </div>
+<div>
+    <textarea name="result" id="result"></textarea>
+</div>
+    </div>
+    <script src="sidepanel.js"></script>
+</body>
+</html>
